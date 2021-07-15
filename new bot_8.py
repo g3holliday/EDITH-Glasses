@@ -2,9 +2,9 @@ import os
 import dialogflow
 from google.api_core.exceptions import InvalidArgument
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'small-talk-mprj-6315eaeb4499.json'
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'Your Security Key Here'
 
-DIALOGFLOW_PROJECT_ID = '[small-talk-mprj]'
+DIALOGFLOW_PROJECT_ID = '[Your Project ID Here]'
 DIALOGFLOW_LANGUAGE_CODE= '[en]'
 SESSION_ID = 'me'
 
