@@ -2,7 +2,7 @@
 # Python 3.7.3 - proxy/interface
 
 import wolframalpha
-client = wolframalpha.Client("GPT6RK-WA3H4YJ7PV")
+client = wolframalpha.Client("Client Key")
 
 def runQuery(query):
 	res = client.query(query)
@@ -10,7 +10,7 @@ def runQuery(query):
 	try:
 		(next(res.results).text)
 	except:
-		return("QueryError: No results found on this query. The query could alsobe invalid")
+		return("QueryError: No results found on this query. The query could also be invalid")
 	
 	return (next(res.results).text)
 
